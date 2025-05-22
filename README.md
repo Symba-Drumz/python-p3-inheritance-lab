@@ -96,6 +96,26 @@ submit your work when complete.
 
 ***
 
+## Running Tests
+
+To run the tests for this lab, use the following commands from the root directory:
+
+```bash
+pytest lib/testing/user_test.py
+pytest lib/testing/student_test.py
+pytest lib/testing/teacher_test.py
+```
+
+If you are already in the `lib/` directory, you can omit the `lib/` prefix:
+
+```bash
+pytest testing/user_test.py
+pytest testing/student_test.py
+pytest testing/teacher_test.py
+```
+
+***
+
 ## Conclusion
 
 We've seen how to set up inheritance to share behavior from one class to another
